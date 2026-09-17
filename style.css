@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background: #ffffff;
+    line-height: 1.7;
+}
+
+
+/* Navigation */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 25px 8%;
+
+    border-bottom: 1px solid #eeeeee;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #555;
+}
+
+.nav-links a:hover {
+    color: #000;
+}
+
+
+/* Main sections */
+
+section {
+    max-width: 850px;
+    margin: auto;
+    padding: 80px 30px;
+}
+
+
+/* Hero */
+
+.hero {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.small-title {
+    color: #777;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 25px;
+}
+
+.intro {
+    max-width: 700px;
+    margin: auto;
+    color: #666;
+    font-size: 18px;
+}
+
+
+/* Headings */
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+
+/* Research */
+
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 12px;
+}
+
+
+/* Projects */
+
+.project {
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.project p {
+    color: #666;
+}
+
+
+/* Links */
+
+a {
+    color: #555;
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 40px;
+    border-top: 1px solid #eee;
+    color: #777;
+}
+
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+    nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .nav-links {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+}
